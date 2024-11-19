@@ -14,7 +14,8 @@
     "@biomejs/biome": "1.9.4",
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.5"
+    "vitest": "^2.1.5",
+    "vitest-tsconfig-paths": "^3.4.1"
   },
   "dependencies": {
     "dayjs": "^1.11.13"
