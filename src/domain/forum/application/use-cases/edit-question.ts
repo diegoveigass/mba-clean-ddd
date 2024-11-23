@@ -1,4 +1,4 @@
-import { Question } from '../../enterprise/entities/question'
+import type { Question } from '../../enterprise/entities/question'
 import type { QuestionsRepository } from '../repositories/questions-repository'
 
 interface EditQuestionUseCaseRequest {
