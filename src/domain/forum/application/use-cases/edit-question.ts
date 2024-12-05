@@ -5,8 +5,8 @@ import { QuestionAttachment } from '../../enterprise/entities/question-attachmen
 import { QuestionAttachmentList } from '../../enterprise/entities/question-attachment-list'
 import type { QuestionAttachmentsRepository } from '../repositories/question-attachments-repository'
 import type { QuestionsRepository } from '../repositories/questions-repository'
-import { NotAllowedError } from './errors/not-allowed-error'
-import { ResourceNotFoundError } from './errors/resource-not-found-error'
+import { NotAllowedError } from '@/core/errors/not-allowed-error'
+import { ResourceNotFoundError } from '@/core/errors/resource-not-found-error'
 
 interface EditQuestionUseCaseRequest {
   authorId: string
