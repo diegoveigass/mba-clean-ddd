@@ -22,7 +22,10 @@
     "rules": {
       "recommended": true,
       "complexity": {
-        "noBannedTypes": "off"
+        "noBannedTypes": "off",
+        "noStaticOnlyClass": "off",
+        "noForEach": "off",
+        "noThisInStatic": "off"
       },
       "suspicious": {
         "noEmptyInterface": "off"
